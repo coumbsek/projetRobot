@@ -1,0 +1,45 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=D:\Documents de Paul\Cours_ISMEA_-_ISFEN\Conception Produits\Robot 2013_2014\MAP_Cablage_Phase1\Programme_TEST_COMPLET\Output_Test\TEST_COMPLET.o
+Folder=Intermediary
+DeviceName=PIC18F2520
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=c:\mcc18\bin\mcc18.exe
+PPAD=$(BINDIR)|D:\Documents de Paul\Cours_ISMEA_-_ISFEN\Conception Produits\Robot 2013_2014\MAP_Cablage_Phase1\Programme_TEST_COMPLET\Output_Test||$(TMPDIR)|D:\Documents de Paul\Cours_ISMEA_-_ISFEN\Conception Produits\Robot 2013_2014\MAP_Cablage_Phase1\Programme_TEST_COMPLET\Output_Test||$(AINDIR)||$(INCDIR)|C:\mcc18\h||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)|C:\mcc18\lkr||
+SOLK=<src>|TEST_COMPLET.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File001]
+Location=D:\Documents de Paul\Cours_ISMEA_-_ISFEN\Conception Produits\Robot 2013_2014\MAP_Cablage_Phase1\Programme_TEST_COMPLET\Output_Test\TEST_COMPLET.cof
+Folder=Output
+DeviceName=PIC18F2520
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=c:\mcc18\bin\mplink.exe
+PPAD=$(BINDIR)|D:\Documents de Paul\Cours_ISMEA_-_ISFEN\Conception Produits\Robot 2013_2014\MAP_Cablage_Phase1\Programme_TEST_COMPLET\Output_Test||$(TMPDIR)|D:\Documents de Paul\Cours_ISMEA_-_ISFEN\Conception Produits\Robot 2013_2014\MAP_Cablage_Phase1\Programme_TEST_COMPLET\Output_Test||$(AINDIR)||$(INCDIR)|C:\mcc18\h||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)|C:\mcc18\lkr||
+SOLK=<src>|TEST_COMPLET.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
+TraceCmdString=
+DebugOptions=/z__MPLAB_DEBUG=1
+[File002]
+Location=D:\Documents de Paul\Cours_ISMEA_-_ISFEN\Conception Produits\Robot 2013_2014\MAP_Cablage_Phase1\Programme_TEST_COMPLET\Output_Test\TEST_COMPLET.hex
+Folder=Output
+DeviceName=PIC18F2520
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=c:\mcc18\bin\mplink.exe
+PPAD=$(BINDIR)|D:\Documents de Paul\Cours_ISMEA_-_ISFEN\Conception Produits\Robot 2013_2014\MAP_Cablage_Phase1\Programme_TEST_COMPLET\Output_Test||$(TMPDIR)|D:\Documents de Paul\Cours_ISMEA_-_ISFEN\Conception Produits\Robot 2013_2014\MAP_Cablage_Phase1\Programme_TEST_COMPLET\Output_Test||$(AINDIR)||$(INCDIR)|C:\mcc18\h||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)|C:\mcc18\lkr||
+SOLK=<src>|TEST_COMPLET.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
+TraceCmdString=
+DebugOptions=/z__MPLAB_DEBUG=1
+[TOOL_LOC_STAMPS]
+tool_loc{96C98149-AA1B-4CF9-B967-FAE79CAB663C}=c:\mcc18\bin\mplink.exe
+tool_loc{E56A1C86-9D32-4DF6-8C34-FE0388B1B644}=c:\mcc18\bin\mcc18.exe
